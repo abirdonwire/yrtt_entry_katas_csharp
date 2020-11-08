@@ -15,12 +15,12 @@ namespace TechReturners.Tasks
         public static int Singles(List<int> source)
         {
             throw new NotImplementedException();
-            int duplicateItems = source.GroupBy(x => x)
+            int notDuplicated = source.GroupBy(x => x)
             .Where(val => val.Count() == 1)
             .Select(val => val.Key)
             .ToList();
 
-            
+            Array.Sum(notDuplicated);
         }
     }
 }
