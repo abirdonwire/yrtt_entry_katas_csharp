@@ -11,6 +11,10 @@ namespace TechReturners.Tasks
         public static int Past(int h, int m, int s)
         {
             throw new NotImplementedException();
+            
+            TimeSpan total = (h, m, s);
+            TimeSpan milliseconds =  FromMilliseconds(total);
+
         }
     }
 }
