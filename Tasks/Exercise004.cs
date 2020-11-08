@@ -10,6 +10,13 @@ namespace TechReturners.Tasks
         public static string PigIt(string str)
         {
             throw new NotImplementedException();
+
+            foreach (var word in string)
+            {
+                string firstLetter = word.Substring(0, 1);
+                word.Concat(firstLetter.Concat("ay"));
+            }
+
         }
     }
 }
